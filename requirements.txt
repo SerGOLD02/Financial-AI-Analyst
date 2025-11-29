@@ -1,0 +1,12 @@
+streamlit
+voyageai
+groq
+chromadb
+pandas
+python-dotenv
+sentence-transformers
+matplotlib
+seaborn
+google-generativeai
+rouge-score
+bert-score

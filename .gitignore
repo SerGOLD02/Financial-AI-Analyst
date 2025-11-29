@@ -1,0 +1,15 @@
+# File di sistema e cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Chiavi segrete (FONDAMENTALE)
+.env
+
+# Dati pesanti (ChromaDB è troppo grosso per GitHub)
+RAG BANK FINAL/chroma_db/
+RAG BANK FINAL/chroma_db_e5/
+RAG BANK FINAL/data/
+
+# Se vuoi caricare i risultati del benchmark ma non i PDF
+# RAG BANK FINAL/results/  <-- Se lo lasci commentato, li carica (bene)
