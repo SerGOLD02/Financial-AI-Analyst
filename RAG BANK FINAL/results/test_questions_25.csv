@@ -1,0 +1,26 @@
+id,question,type,expected_entities,requires_table
+1,What was the Net Income of Wells Fargo in 2022 according to the '2022-annual-report_wellsfargo.pdf'?,fact_retrieval,"['Net Income', 'Wells Fargo', '2022']",False
+2,Who are the members of the Board of Directors listed in the 'BAC 2025 Proxy Statement'?,fact_retrieval,"['Board of Directors', 'Bank of America']",False
+3,What is the CET1 ratio reported in the '2024 ING Groep NV annual report'?,fact_retrieval,"['CET1', 'ING', '2024']",False
+4,"According to the 'Barclays-PLC-Pillar-3-Report-2023', what was the group's average Liquidity Coverage Ratio (LCR)?",fact_retrieval,"['LCR', 'Barclays', '2023']",False
+5,What were the Total Net Revenues for Goldman Sachs in 2023 according to the '2023-annual-report_gs.pdf'?,fact_retrieval,"['Net Revenues', 'Goldman Sachs', '2023']",False
+6,Report the Executive Compensation table for the CEO from the 'proxy-statement2025.pdf'.,tabular_extraction,"['CEO', 'compensation']",True
+7,"Extract the Net Interest Income values for 2022, 2023, and 2024 from the '250227-financial-statements-2024.pdf' and present them in a list.",tabular_extraction,"['Net Interest Income', '2022', '2023', '2024']",True
+8,What is the geographic breakdown of ING's revenues for 2023 as shown in the '2023-ING-Groep-NV-annual-report.pdf'?,tabular_extraction,"['revenues', 'geographic', 'ING', '2023']",True
+9,List the principal subsidiaries of Barclays as reported in the 'Barclays-Bank-UK-PLC-AR-2022.pdf'.,tabular_extraction,"['subsidiaries', 'Barclays']",True
+10,"From the 'financial-highlights-2024.pdf', what are the 5 Key Performance Indicators and their values?",tabular_extraction,"['KPI', '2024']",True
+11,"Compare Bank of America's Net Income in 2022, 2023, and 2024 using the respective Annual Reports.",time_series_comparison,"['Net Income', 'Bank of America', '2022', '2023', '2024']",False
+12,How has Barclays' CET1 Ratio changed between the 2022 and 2023 Pillar 3 Reports?,time_series_comparison,"['CET1', 'Barclays', '2022', '2023']",False
+13,Analyze the evolution of ING's Operating Expenses from 2022 to 2024 using the provided annual reports.,time_series_comparison,"['Operating Expenses', 'ING', '2022', '2024']",False
+14,Was there an increase or decrease in Risk Weighted Assets for HSBC between the 2022 report and the 2023 report?,time_series_comparison,"['RWA', 'HSBC', '2022', '2023']",False
+15,How has the Wells Fargo CEO's compensation varied when comparing the 2022 report with the most recent data available?,time_series_comparison,"['CEO', 'compensation', 'Wells Fargo', '2022']",True
+16,Compare the 2023 Liquidity Coverage Ratio (LCR) between Barclays (from Pillar 3) and ING (from Pillar 3). Who has a better liquidity position?,cross_entity_comparison,"['LCR', 'Barclays', 'ING', '2023']",False
+17,Who reported higher revenues in 2022: Wells Fargo or Bank of America?,cross_entity_comparison,"['revenues', 'Wells Fargo', 'Bank of America', '2022']",False
+18,What are the main differences in the approach to Climate Risk between ING's 2024 ESG report and Bank of America's reports?,cross_entity_comparison,"['Climate Risk', 'ING', 'Bank of America', 'ESG']",False
+19,Compare the capital structure (Tier 1 Capital) between Goldman Sachs and HSBC based on the 2023 reports.,cross_entity_comparison,"['Tier 1 Capital', 'Goldman Sachs', 'HSBC', '2023']",False
+20,Which bank has a higher percentage of women on the Board of Directors according to the 2025 Proxy Statements?,cross_entity_comparison,"['women', 'Board of Directors', '2025']",True
+21,"Based on the '250219-pillar-3-disclosures-at-31-december-2024.pdf', explain how the bank calculates counterparty risk and which models it uses.",synthesis,"['counterparty risk', 'models']",False
+22,Synthesize the Capital Allocation strategy described in the 'Barclays-PLC-Annual-Report-2023.pdf'.,synthesis,"['Capital Allocation', 'Barclays', '2023']",False
+23,What are the main Litigation matters that Wells Fargo faced in 2022 according to its annual report?,synthesis,"['Litigation', 'Wells Fargo', '2022']",False
+24,Explain how the '2024 ING Groep NV annual report.pdf' addresses the topic of Artificial Intelligence in banking operations.,synthesis,"['AI', 'Artificial Intelligence', 'ING', '2024']",False
+25,Analyze the 'Management's Discussion and Analysis' section of 2024 and summarize the impact of interest rates on the bank's margins.,synthesis,"['interest rates', 'margins', '2024']",False

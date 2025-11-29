@@ -1,0 +1,82 @@
+system,question,answer,recall_at_5,mrr,rouge_l,bertscore_f1,faithfulness,relevance,judge_reasoning,latency,embedding_model,llm_model,multi_query,chain_of_thought
+Config 1: Voyage + Llama-70b,What was the Net Income of Wells Fargo in 2022 according to the '2022-annual-report_wellsfargo.pdf'?,"According to the '2022-annual-report_wellsfargo.pdf' [Source: 2022-annual-report_wellsfargo.pdf, Page 95], the Net Income of Wells Fargo in 2022 was $13.182 billion. 
+
+Additionally, the Net Income applicable to common stock was $12.067 billion [Source: 2022-annual-report_wellsfargo.pdf, Page 95]. 
+
+It is also mentioned in the '2022-annual-report.pdf' [Source: 2022-annual-report.pdf, Page 17] that the Wells Fargo net income for 2022 was $13.2 billion. 
+
+However, the most detailed and accurate information is provided in the '2022-annual-report_wellsfargo.pdf' [Source: 2022-annual-report_wellsfargo.pdf, Page 95] and the '2023-annual-report.pdf' [Source: 2023-annual-report.pdf, Page 11], where the Net Income of Wells Fargo in 2022 is reported as $13.182 billion and $13.677 billion respectively, but since we are looking for the answer based on '2022-annual-report_wellsfargo.pdf', we will consider $13.182 billion as the Net Income. 
+
+Here is the relevant data in a Markdown table format:
+| Category | 2022 |
+| --- | --- |
+| Net Income | $13.182 billion |
+| Net Income applicable to common stock | $12.067 billion |",1.0,1.0,0.0,0.0,0.0,0.0,Evaluation Failed (API Error),3.3461759090423584,voyage,llama-3.3-70b-versatile,True,True
+Config 1: Voyage + Llama-70b,Who are the members of the Board of Directors listed in the 'BAC 2025 Proxy Statement'?,"According to the provided context, the members of the Board of Directors listed in the 'BAC 2025 Proxy Statement' and other related documents are as follows:
+
+1. **From 2025-proxy-statement.pdf, Page 89**: 
+   - CeCelia G. Morken
+   - Maria R. Morris
+   - Felicia F. Norwood
+   - Richard B. Payne, Jr.
+   - Ronald L. Sargent
+   - Suzanne M. Vautrinot
+
+2. **From proxy-statement2025.pdf, Page 10**:
+   - Stephen B. Burke
+   - Linda B. Bammann
+   - Michele G. Buck
+   - Todd A. Combs
+   - Alicia Boler Davis
+   - James Dimon
+   - Alex Gorsky
+   - Mellody Hobson
+   - Phebe N. Novakovic
+   - Virginia M. Rometty
+
+3. **From 2024-annual-report.pdf, Page 194**:
+   - Steven D. Black
+   - Fabian T. Garcia
+   - Ronald L. Sargent
+   - Mark A. Chancy
+   - Wayne M. Hewett
+   - Celeste A. Clark
+   - CeCelia G. Morken
+   - Charles W. Scharf
+
+4. **From BAC+2023+Annual+Report.pdf, Page 233**:
+   - Brian T. Moynihan
+   - Linda P. Hudson
+   - Thomas D. Woods
+   - Lionel L. Nowell III
+   - Maria T. Zuber
+   - Monica C. Lozano
+   - Sharon L. Allen
+   - Denise L. Ramos
+   - José (Joe) E. Almeida
+   - Clayton S. Rose
+   - Pierre J. P. de Weck
+   - Michael D. White
+   - Arnold W. Donald
+
+5. **From BAC+2022+Annual+Report.pdf, Page 223**:
+   - Pierre J. P. de Weck
+   - Denise L. Ramos
+   - Brian T. Moynihan
+   - Clayton S. Rose
+   - Arnold W. Donald
+   - Michael D. White
+   - Lionel L. Nowell III
+   - Linda P. Hudson
+   - Thomas D. Woods
+   - Sharon L. Allen
+   - José (Joe) E. Almeida
+   - R. David Yost
+   - Monica C. Lozano
+   - Maria T. Zuber
+   - Frank P. Bramble, Sr.
+
+Please note that some of these individuals may be listed in multiple documents, but they are all part of the Board of Directors as per the provided context. [Source: BAC 2025 Proxy Statement.pdf, Page 1], [Source: 2025-proxy-statement.pdf, Page 89], [Source: proxy-statement2025.pdf, Page 10], [Source: 2024-annual-report.pdf, Page 194], [Source: BAC+2023+Annual+Report.pdf, Page 233], [Source: BAC+2022+Annual+Report.pdf, Page 223].",0.5,0.3333333333333333,0.0,0.0,0.0,0.0,Evaluation Failed (API Error),4.298588275909424,voyage,llama-3.3-70b-versatile,True,True
+Config 1: Voyage + Llama-70b,What is the CET1 ratio reported in the '2024 ING Groep NV annual report'?,"Error generating response: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01htnqk34wes5tam0rxygfm60y` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97843, Requested 4830. Please try again in 38m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",1.0,1.0,0.0,0.0,0.0,0.0,Evaluation Failed (API Error),3.816744804382324,voyage,llama-3.3-70b-versatile,True,True
+Config 1: Voyage + Llama-70b,"According to the 'Barclays-PLC-Pillar-3-Report-2023', what was the group's average Liquidity Coverage Ratio (LCR)?","Error generating response: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01htnqk34wes5tam0rxygfm60y` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98150, Requested 4101. Please try again in 32m24.863999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",1.0,1.0,0.0,0.0,0.0,0.0,Evaluation Failed (API Error),2.6513779163360596,voyage,llama-3.3-70b-versatile,True,True
+Config 1: Voyage + Llama-70b,What were the Total Net Revenues for Goldman Sachs in 2023 according to the '2023-annual-report_gs.pdf'?,"Error generating response: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01htnqk34wes5tam0rxygfm60y` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98436, Requested 5327. Please try again in 54m11.231999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",0.6666666666666666,1.0,0.0,0.0,0.0,0.0,Evaluation Failed (API Error),2.619291305541992,voyage,llama-3.3-70b-versatile,True,True

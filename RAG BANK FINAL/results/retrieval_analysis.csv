@@ -1,0 +1,11 @@
+query,type,Voyage + Llama 70B_n_chunks,Voyage + Qwen 32B_n_chunks,E5 + Llama 70B_n_chunks,E5 + Qwen 32B_n_chunks
+What is the CET1 ratio reported in the '2024 ING Groep NV annual report'?,fact_retrieval,0,0,0,0
+Explain how the '2024 ING Groep NV annual report.pdf' addresses the topic of Artificial Intelligence in banking operations.,synthesis,0,0,0,0
+Which bank has a higher percentage of women on the Board of Directors according to the 2025 Proxy Statements?,cross_entity_comparison,0,0,0,0
+"From the 'financial-highlights-2024.pdf', what are the 5 Key Performance Indicators and their values?",tabular_extraction,0,0,0,0
+Report the Executive Compensation table for the CEO from the 'proxy-statement2025.pdf'.,tabular_extraction,0,0,0,0
+Who are the members of the Board of Directors listed in the 'BAC 2025 Proxy Statement'?,fact_retrieval,0,0,0,0
+What are the main differences in the approach to Climate Risk between ING's 2024 ESG report and Bank of America's reports?,cross_entity_comparison,0,0,0,0
+"Compare Bank of America's Net Income in 2022, 2023, and 2024 using the respective Annual Reports.",time_series_comparison,0,0,0,0
+What was the Net Income of Wells Fargo in 2022 according to the '2022-annual-report_wellsfargo.pdf'?,fact_retrieval,0,0,0,0
+Compare the capital structure (Tier 1 Capital) between Goldman Sachs and HSBC based on the 2023 reports.,cross_entity_comparison,0,0,0,0

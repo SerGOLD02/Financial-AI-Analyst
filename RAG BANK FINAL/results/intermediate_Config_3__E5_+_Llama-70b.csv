@@ -1,0 +1,59 @@
+system,question_id,question,difficulty,type,answer,recall_at_5,recall_at_10,mrr,rouge_l,bertscore_f1,faithfulness,relevance,judge_reasoning,latency,answer_length,num_chunks_retrieved,embedding_model,llm_model,multi_query,chain_of_thought
+Config 3: E5 + Llama-70b,1,What was the Net Income of Wells Fargo in 2022 according to the '2022-annual-report_wellsfargo.pdf'?,easy,fact_retrieval,"According to the '2022-annual-report_wellsfargo.pdf', the Net Income of Wells Fargo in 2022 was $13.2 billion [Source: 2022-annual-report_wellsfargo.pdf, Page 17] and also $13.182 billion [Source: 2022-annual-report_wellsfargo.pdf, Page 15]. Additionally, it is mentioned as $13.182 billion [Source: 2022-annual-report_wellsfargo.pdf, Page 15] and $13.2 billion ($3.14 diluted EPS) [Source: 2022-annual-report_wellsfargo.pdf, Page 17]. However, the most precise figure is $13.182 billion [Source: 2022-annual-report_wellsfargo.pdf, Page 15].",1.0,1.0,0.5,0.0,0.0,0.0,0.0,"Evaluation error: 429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?%24alt=json%3Benum-encoding%3Dint: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 40.508866239s.",9.485283613204956,541,8,e5,llama-3.3-70b-versatile,True,True
+Config 3: E5 + Llama-70b,2,Who are the members of the Board of Directors listed in the 'BAC 2025 Proxy Statement'?,easy,fact_retrieval,"According to the provided context, specifically from the 'proxy-statement2025.pdf' on Page 10 [Source: proxy-statement2025.pdf, Page 10], the following individuals are listed as nominees for the Board of Directors:
+
+1. **Stephen B. Burke** - 66 years old, Retired Chairman and Lead Independent Director, Chief Executive Officer of NBCUniversal, LLC
+2. **Linda B. Bammann** - 69 years old, Retired Deputy Head of Risk Management of JPMorgan Chase & Co.
+3. **Michele G. Buck** - 63 years old, Chairman, President, and Chief Executive Officer of The Hershey Company
+4. **Todd A. Combs** - 54 years old, Chairman, President, and Chief Executive Officer of GEICO and Investment Officer at Berkshire Hathaway Inc.
+5. **Alicia Boler Davis** - 56 years old, Chief Executive Officer of Alto Pharmacy, LLC
+6. **James Dimon** - 69 years old, Chairman and Chief Executive Officer of JPMorgan Chase & Co.
+7. **Alex Gorsky** - 64 years old, Retired Chairman and Chief Executive Officer of Johnson & Johnson
+
+Additionally, from 'proxy-statement2025.pdf' [Source: proxy-statement2025.pdf], the following individuals are mentioned as part of the Board of Directors, although not explicitly listed in the same table:
+
+1. **Mellody Hobson**
+2. **Phebe N. Novakovic**
+3. **Virginia M. Rometty**
+4. **Brad D. Smith**
+5. **Mark A. Weinberger**
+6. **Timothy P. Flynn** (retired in May 2024)
+7. **Michael A. Neal** (retired in May 2024)
+
+Please note that the list provided on Page 10 of 'proxy-statement2025.pdf' only includes 7 members, while the total number of directors is mentioned as 14 in 'BAC 2025 Proxy Statement.pdf' [Source: BAC 2025 Proxy Statement.pdf, Page 3]. However, based on the provided context, the complete list of 14 directors is not available.",1.0,1.0,1.0,0.0,0.0,0.0,0.0,"Evaluation error: 429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?%24alt=json%3Benum-encoding%3Dint: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 21.389522853s.",18.574561834335327,1742,10,e5,llama-3.3-70b-versatile,True,True
+Config 3: E5 + Llama-70b,3,What is the CET1 ratio reported in the '2024 ING Groep NV annual report'?,easy,fact_retrieval,"According to the provided context, the CET1 ratio reported in the '2024 ING Groep NV annual report' is approximately 12.5% [Source: 2024 ING Groep NV annual report.pdf, Page 16]. 
+
+This is mentioned in the strategy section of the report, where it is stated that ING aims to have a CET1 ratio of ~12.5% by the end of 2025. However, the exact CET1 ratio for 2024 is not explicitly mentioned in the provided context. 
+
+But, according to [Source: 2023-ING-Groep-NV-annual-report.pdf, Page 307], the CET1 ratio at 31 December 2023 is 14.7%. And [Source: 2024 ING Groep NV annual report.pdf, Page 80] does not provide the CET1 ratio for 2024. 
+
+Therefore, based on the provided context, the CET1 ratio for 2024 is not explicitly stated, but the target CET1 ratio is 12.5% by the end of 2025 [Source: 2024 ING Groep NV annual report.pdf, Page 16].",1.0,1.0,1.0,0.0,0.0,0.0,0.0,"Evaluation error: 429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?%24alt=json%3Benum-encoding%3Dint: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 118.415782ms.",20.751737594604492,840,10,e5,llama-3.3-70b-versatile,True,True
+Config 3: E5 + Llama-70b,4,"According to the 'Barclays-PLC-Pillar-3-Report-2023', what was the group's average Liquidity Coverage Ratio (LCR)?",easy,fact_retrieval,"I cannot find the average Liquidity Coverage Ratio (LCR) for the group in the 'Barclays-PLC-Pillar-3-Report-2023' within the provided context. However, I can find the LCR ratio as a percentage, which is 161% [Source: Barclays-PLC-Pillar-3-Report-2023.pdf, Page 20] and also the 2022 average LCR which is mentioned in the 'Barclays-PLC-Pillar-3-Report-2022.pdf' [Source: Barclays-PLC-Pillar-3-Report-2022.pdf, Page 38]. 
+
+But for the year 2023, the average is not provided in the given context. The 2023 LCR ratio is provided as 161% [Source: Barclays-PLC-Pillar-3-Report-2023.pdf, Page 6]. 
+
+To provide the average, I would need more information which is not available in the given context.",1.0,1.0,1.0,0.0,0.0,0.0,0.0,"Evaluation error: 429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?%24alt=json%3Benum-encoding%3Dint: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 42.443240421s.",17.16066837310791,690,9,e5,llama-3.3-70b-versatile,True,True
+Config 3: E5 + Llama-70b,5,What were the Total Net Revenues for Goldman Sachs in 2023 according to the '2023-annual-report_gs.pdf'?,easy,fact_retrieval,"According to the '2023-annual-report_gs.pdf' [Source: 2023-annual-report_gs.pdf, Page 69], the Total Net Revenues for Goldman Sachs in 2023 were $46.25 billion. This is mentioned in the section ""Operating Results — Segment Operating Results"" and is compared to the 2022 figure, which is not the focus of this specific question but is provided as $46.25 billion for 2023, 2% lower than 2022. 
+
+Here is the relevant information in a formatted manner for clarity:
+| Year | Total Net Revenues |
+|------|--------------------|
+| 2023 | $46.25 billion      |
+| 2022 | (2% higher than 2023) |
+
+Note: The exact figure for 2022 is not provided in the question's context but is mentioned as being 2% higher than the 2023 figure.",0.6666666666666666,1.0,1.0,0.0,0.0,0.0,0.0,"Evaluation error: 429 POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?%24alt=json%3Benum-encoding%3Dint: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 18.028024533s.",23.922905921936035,717,10,e5,llama-3.3-70b-versatile,True,True
