@@ -78,10 +78,14 @@ While Qwen achieved the highest score due to its superior noise tolerance when h
 ---
 
 ## Repository Structure
-* `app.py`: Main Streamlit application code.
-* `research/`: Contains the Jupyter Notebook (`RAG_FINANCE_DEF.ipynb`) used for the benchmark and ablation study.
-* `RAG BANK FINAL/`: Local storage for ChromaDB and PDF data (Note: Large files may not be included in the repo).
-* `requirements.txt`: List of project dependencies.
+
+| File / Folder | Description |
+| :--- | :--- |
+| **`app.py`** | The main executable file for the **Streamlit Interface**. Run this to launch the chatbot. |
+| **`research/`** | Contains the **Jupyter Notebook** (`RAG_FINANCE_DEF.ipynb`) with the complete source code for Data Ingestion, Benchmark Tournament, and Ablation Study. |
+| **`RAG BANK FINAL/`** | Local storage directory (essential for running the app):<br>• `data/`: Contains raw PDF reports.<br>• `chroma_db/`: Vector store for Voyage AI embeddings.<br>• `chroma_db_e5/`: Vector store for E5 embeddings.<br>• `results/`: Benchmark logs (CSVs) and generated charts. |
+| **`requirements.txt`** | List of Python dependencies required to run the project. |
+| **`.env`** | (Not included) Configuration file for API Keys (Groq, Voyage, Gemini). |
 
 ---
 
