@@ -1,8 +1,7 @@
 # Financial AI Analyst Pro
 **A Multi-Model RAG System for Advanced Banking Report Analysis**
 
-![Streamlit Interface](results/final_presentation_dashboard.png)
-*(Note: This is a placeholder image link, replace with your actual screenshot path if needed)*
+![Streamlit Interface](RAG%20BANK%20FINAL/results/dashboard.png)
 
 ## Project Overview
 Financial AI Analyst Pro is an advanced Retrieval-Augmented Generation (RAG) system engineered to automate the extraction and analysis of complex financial documents, specifically Annual Reports and Pillar 3 Disclosures.
